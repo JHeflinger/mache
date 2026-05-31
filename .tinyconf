@@ -1,0 +1,7 @@
+PROJECT src
+MAIN main.c
+FLAG prod
+SOURCE protocols
+INCLUDE protocols
+LINUX RAW $(pkg-config --cflags --libs wayland-client wayland-egl egl glesv2)
+LINUX LINK m

@@ -1,0 +1,4 @@
+build/
+protocols/*.c
+protocols/*.h
+.scache/*
